@@ -1107,7 +1107,7 @@
             
             // خدمة العملاء
             customerService.addEventListener('click', () => {
-                const phoneNumber = "966501234567";
+                const phoneNumber = "0924299798";
                 const message = "مرحباً، أود الاستفسار عن خدماتكم";
                 const encodedMessage = encodeURIComponent(message);
                 const url = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
@@ -1392,9 +1392,9 @@
         function updateStats() {
             const stats = {
                 properties: properties.length,
-                broker: 42,  // عدد السماسرة النشطين
-                owner: 156,  // عدد مالكي العقارات
-                agent: 23    // عدد الوكلاء
+                broker: 589,  // عدد السماسرة النشطين
+                owner: 64,  // عدد مالكي العقارات
+                agent: 1250   // عدد الوكلاء
             };
             
             animateCounter(statProperties, 0, stats.properties, 1500);
